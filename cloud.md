@@ -135,7 +135,7 @@ Amazon EC2 (Elastic Compute Cloud), one of Amazon Web Services’ most well-know
 
 ###### this is running instance window
 
-![](C:\Users\Atul\Pictures\Screenshots\EC2.png)
+![](C:\Users\Atul\MasterMind\img\EC2.png)
 
 
 
@@ -163,7 +163,7 @@ A security group acts as a virtual firewall for your EC2 instances to control in
 
 ###### This is security group window we  can set inbound and outbound rule here
 
-![](C:\Users\Atul\Pictures\Screenshots\SG.png)
+![](C:\Users\Atul\MasterMind\img\SG.png)
 
 ### Data Center?
 
@@ -191,13 +191,13 @@ We have to create a root directory it is also called as bucket, name of bucket s
 
 ###### create bucket window :-
 
-![](C:\Users\Atul\Pictures\Screenshots\Bucket.png)
+![](C:\Users\Atul\MasterMind\img\Bucket.png)
 
 
 
 ###### we create and manage sub folders in this window :-
 
-![](C:\Users\Atul\Pictures\Screenshots\folder.png)
+![](C:\Users\Atul\MasterMind\img\folder.png)
 
 
 
@@ -208,7 +208,7 @@ Amazon RDS is available on several database instance types - optimized for memor
 
 ###### database manage window
 
-![](C:\Users\Atul\Pictures\Screenshots\RDS.png)
+![](C:\Users\Atul\MasterMind\img\RDS.png)
 
 
 
