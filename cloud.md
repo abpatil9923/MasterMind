@@ -177,7 +177,7 @@ Availability zones (AZs) are isolated locations within data center regions from 
 
 
 
-![](img\DS.jpg)
+![](MasterMind\img\DS.jpg)
 
 
 
