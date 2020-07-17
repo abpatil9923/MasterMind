@@ -105,6 +105,14 @@ values('j1','xxx','pune'),
 
 ```
  select * from SUPPLIER;
+ 
++------+-------+--------+--------+
+| S_id | Sname | status | City   |
++------+-------+--------+--------+
+| s1   | ram   | 20     | pune   |
+| s2   | sham  | 30     | Abad   |
+| s3   | sita  | 10     | nashik |
++------+-------+--------+--------+
 ```
 
 
@@ -113,6 +121,14 @@ values('j1','xxx','pune'),
 
 ```
 select Sname from SUPPLIER;
+
++-------+
+| Sname |
++-------+
+| ram   |
+| sham  |
+| sita  |
++-------+
 ```
 
 
@@ -121,6 +137,12 @@ select Sname from SUPPLIER;
 
 ```
 select Pname from PARTS where CITY=”Abad”;
+
++-------+
+| Pname |
++-------+
+| y     |
++-------+
 ```
 
 
@@ -129,6 +151,12 @@ select Pname from PARTS where CITY=”Abad”;
 
 ```
 select * from SUPPLIER where CITY=”Abad”;
+
++------+-------+--------+------+
+| S_id | Sname | status | City |
++------+-------+--------+------+
+| s2   | sham  | 30     | Abad |
++------+-------+--------+------+
 ```
 
 
@@ -137,6 +165,13 @@ select * from SUPPLIER where CITY=”Abad”;
 
 ```
 select * from SUPPLIER where CITY=”Abad” or CITY=”pune”;
+
++------+-------+--------+------+
+| S_id | Sname | status | City |
++------+-------+--------+------+
+| s1   | ram   | 20     | pune |
+| s2   | sham  | 30     | Abad |
++------+-------+--------+------+
 ```
 
 
@@ -145,6 +180,12 @@ select * from SUPPLIER where CITY=”Abad” or CITY=”pune”;
 
 ```
 select * from PROJECTS where CITY=”nashik”;
+
++------+-------+--------+
+| J_id | Jname | City   |
++------+-------+--------+
+| j3   | zzz   | nashik |
++------+-------+--------+
 ```
 
 
@@ -153,6 +194,14 @@ select * from PROJECTS where CITY=”nashik”;
 
 ```
 select Pname FROM PARTS WHERE Weight BETWEEN 20 AND 40;
+
++-------+
+| Pname |
++-------+
+| x     |
+| y     |
+| z     |
++-------+
 ```
 
 
@@ -161,6 +210,13 @@ select Pname FROM PARTS WHERE Weight BETWEEN 20 AND 40;
 
 ```
  select * from  SUPPLIER WHERE Status >= 20;
+ 
++------+-------+--------+------+
+| S_id | Sname | status | City |
++------+-------+--------+------+
+| s1   | ram   | 20     | pune |
+| s2   | sham  | 30     | Abad |
++------+-------+--------+------+
 ```
 
 
@@ -169,6 +225,13 @@ select Pname FROM PARTS WHERE Weight BETWEEN 20 AND 40;
 
 ```
 select * from  SUPPLIER WHERE CITY!="Abad";
+
++------+-------+--------+--------+
+| S_id | Sname | status | City   |
++------+-------+--------+--------+
+| s1   | ram   | 20     | pune   |
+| s3   | sita  | 10     | nashik |
++------+-------+--------+--------+
 ```
 
 
@@ -177,5 +240,13 @@ select * from  SUPPLIER WHERE CITY!="Abad";
 
 ```
 select city from  SUPPLIER;
+
++--------+
+| city   |
++--------+
+| pune   |
+| Abad   |
+| nashik |
++--------+
 ```
 
