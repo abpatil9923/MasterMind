@@ -18,7 +18,7 @@ select * from Supplier order by city desc;
 
 
 
-###### 2) Display the Part Table in the ascending order of CITY and within the city in the ascending order of      Part names. 
+###### 2) Display the Part Table in the ascending order of CITY and within the city in the ascending order of  Part names. 
 
 
 
@@ -31,7 +31,7 @@ mysql> select * from Supplier where status between 10 and 20;
 +------+-------+--------+--------+
 | S_id | Sname | status | City   |
 +------+-------+--------+--------+
-| s1   | ram   | 20     | pune   |
+| s1   | ram   | 20     | pune   | 
 | s3   | sita  | 10     | nashik |
 +------+-------+--------+--------+
 ```
@@ -88,7 +88,7 @@ mysql> select * from supplier where Left(city,1) = "p";
 ###### 7) Display all the Projects, with the third letter in JNAME as ‘y’. 
 
 ```
-mysql> select  * from projects where  LEFT(jname,1) = 'y';
+select  * from projects where  jname like '__u%';
 
 +------+-------+------+
 | J_id | Jname | City |
